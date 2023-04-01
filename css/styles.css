@@ -1,0 +1,37 @@
+.text {
+            text-align: center;
+        }
+
+
+hr {
+    
+    border-style: none;
+    border-top-style: dotted;
+    color: black;
+    border-color: antiquewhite;
+    border-width: 10px;
+    width: 30%;
+}
+
+body {
+    background-color:#A9907E;
+}
+h1 {
+    color: #F3DEBA;
+}
+h3 {
+    color: #F3DEBA;
+}
+
+a {
+    color: #ABC4AA;
+}
+ul {
+    color: #494235;
+}
+p {
+    color: #363028;
+}
+
+
+
