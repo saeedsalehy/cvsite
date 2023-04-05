@@ -8,26 +8,28 @@ hr {
     border-style: none;
     border-top-style: dotted;
     color: black;
-    border-color: antiquewhite;
+    border-color: #4F200D;
     border-width: 10px;
     width: 30%;
 }
 
 body {
-    background-color:#A9907E;
+    background-color:#f2ce95;
 }
 h1 {
-    color: #F3DEBA;
+    color:#4F200D
+    ;
 }
 h3 {
-    color: #F3DEBA;
+    color:#4F200D
+    ;
 }
 
 a {
-    color: #ABC4AA;
+    color: #FF8400;
 }
 ul {
-    color: #494235;
+    color:#4F200D;
 }
 p {
     color: #363028;
