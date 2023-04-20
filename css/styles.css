@@ -48,11 +48,13 @@ p {
 }
 
 footer{
+
     padding: 20px;
     border-radius: 25px;
     background-color: bisque;
-    
-}
+    text-align:center;
+    margin-top: 10px;
+} 
 
 
 
