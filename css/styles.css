@@ -24,6 +24,7 @@ div{
 }
 
 body {
+    border-radius: 20px;
     padding: 15;
     background-color:#454545;
     width: 500;
