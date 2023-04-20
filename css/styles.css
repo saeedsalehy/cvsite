@@ -3,6 +3,7 @@
         }
 
 
+
 hr {
     
     border-style: none;
@@ -11,10 +12,21 @@ hr {
     border-color: #4F200D;
     border-width: 10px;
     width: 30%;
+
+}
+
+div{
+    background-color:#f2ce95 ;
+    border: 30px;
+    border-radius: 25px;
+    padding: 12px;
+    
 }
 
 body {
-    background-color:#f2ce95;
+    padding: 15;
+    background-color:#454545;
+    width: 500;
 }
 h1 {
     color:#4F200D
@@ -26,13 +38,20 @@ h3 {
 }
 
 a {
-    color: #d0710d;
+    color: #d78521;
 }
 ul {
     color:#4F200D;
 }
 p {
     color: #363028;
+}
+
+footer{
+    padding: 20px;
+    border-radius: 25px;
+    background-color: bisque;
+    
 }
 
 
