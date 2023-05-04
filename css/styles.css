@@ -2,6 +2,14 @@
             text-align: center;
         }
 
+.skills {
+    padding: 20px;
+    border-radius: 25px;
+    background-color: bisque;
+    text-align:center;
+    margin-top: 10px;
+
+}
 
 
 hr {
@@ -12,6 +20,7 @@ hr {
     border-color: #4F200D;
     border-width: 10px;
     width: 30%;
+    
 
 }
 
@@ -19,42 +28,55 @@ div{
     background-color:#f2ce95 ;
     border: 30px;
     border-radius: 25px;
-    padding: 12px;
+    padding: 13px;
     
 }
 
 body {
-    padding: 15;
+   
     background-color:#454545;
     width: 500;
 }
 h1 {
-    color:#4F200D
-    ;
+    color:#4F200D;
+    font-family: 'Sacramento', cursive;
+    
+}
+h2{
+    color:#4F200D;
+    font-family: 'Ubuntu', sans-serif;
 }
 h3 {
-    color:#4F200D
-    ;
+    color:#4F200D;
+    font-family: 'Sacramento', cursive;
+    
 }
 
 a {
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration-line: none;
     color: #d78521;
 }
 ul {
+    font-family: 'Ubuntu', sans-serif;
     color:#4F200D;
 }
 p {
+    font-family: 'Ubuntu', sans-serif;
     color: #363028;
+}
+table {
+    font-family: 'Ubuntu', sans-serif;
 }
 
 footer{
 
+    font-family: 'Comic Neue', cursive;
     padding: 20px;
     border-radius: 25px;
     background-color: bisque;
     text-align:center;
     margin-top: 10px;
 } 
-
 
 
