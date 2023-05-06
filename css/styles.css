@@ -10,6 +10,19 @@
     margin-top: 10px;
 
 }
+.d1 {
+    background-color: #4545455c;
+}
+
+.glass {
+    /* From https://css.glass */
+background:#f2ce95;
+border-radius: 16px;
+box-shadow: 0 4px 30px #f2ce95;
+backdrop-filter: blur(4px); 
+-webkit-backdrop-filter: blur(4px);
+} 
+
 
 
 hr {
@@ -36,10 +49,13 @@ body {
    
     background-color:#454545;
     width: 500;
+    
 }
 h1 {
     color:#4F200D;
     font-family: 'Sacramento', cursive;
+    font-size: 50px;
+    line-height: 2px;
     
 }
 h2{
@@ -49,13 +65,17 @@ h2{
 h3 {
     color:#4F200D;
     font-family: 'Sacramento', cursive;
+    font-size: 35px;
+    
     
 }
 
 a {
     font-family: 'Ubuntu', sans-serif;
     text-decoration-line: none;
-    color: #d78521;
+    color: #cb7104;
+    line-height:40px;
+    
 }
 ul {
     font-family: 'Ubuntu', sans-serif;
@@ -64,19 +84,26 @@ ul {
 p {
     font-family: 'Ubuntu', sans-serif;
     color: #363028;
+    
+    
 }
-table {
-    font-family: 'Ubuntu', sans-serif;
-}
-
+table, th, td {
+    background-color: #cb7104;
+    border: 1px solid  #4F200D;
+    border-radius: 10px;
+    padding: 7px;
+    
+  }
 footer{
 
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
     padding: 20px;
     border-radius: 25px;
     background-color: bisque;
     text-align:center;
     margin-top: 10px;
 } 
+
 
 
