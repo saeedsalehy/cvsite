@@ -88,6 +88,7 @@ p {
     
 }
 table, th, td {
+    font-family: 'Ubuntu', sans-serif;
     background-color: #cb7104;
     border: 1px solid  #4F200D;
     border-radius: 10px;
