@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<style>
+    .bgc1 {
+        background-color: aliceblue;
+    }
+    .glasstori {
+        /* From https://css.glass */
+background: rgba(54, 50, 50, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+padding: 20px ;
+border-color: black;
+border:solid;
+    }
+
+input {
+    border-radius: 25px;
+}
+.submitt {
+    color: rgb(255, 255, 255);
+    background-color: rgb(48, 117, 117);
+    
+}
+
+#id1 {
+
+    color: brown;
+}
+
+
+</style>
+<body class="bgc1">
+
+    <div class="glasstori"><!--Creat a Glasslike Div Block-->
+        <form>
+            <!-- set first name and last nam -->
+           <label for="fname">First Name</label><br>
+           <input type="text" id="fname"><br>
+           <label for="lname">Last Name</label><br>
+           <input type="text" id="lname" style="border: dotted teal thick;"><br>
+           <!--Request Email-->
+           <label for="EMail">Your E-Mail</label><br>
+           <input type="email" name="email me" id="EMail"><br>
+           <!--Set PASSWORD with max lenghth-->
+           <label for="passw">PassWord</label><br>
+           <input type="password" name="password" id="passw " maxlength="8"><br>
+           <!--set GENDER with 3 option-->
+           <label for="Gender">Gender</label><br>
+           <select name="Gender" id="Gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+            </select><br><br>
+            <input type="submit" name="" id="" class="glasstori submitt">
+            <!--ENDUP-->
+        </form>
+
+    </div>
+
+    <marquee behavior="" direction=""><fieldset style="height: 200px; border-radius: 25px;"><legend>hello mafaca</legend></fieldset></marquee>
+    
+</body>
+</html>
